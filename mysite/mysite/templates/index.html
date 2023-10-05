@@ -1,8 +1,8 @@
 {% extends "base.html" %}
-      
+
  {% block content %}
 <style>
-    
+
     body {
         font-family: "Roboto", sans-serif;
         font-size: 18px;
@@ -32,10 +32,10 @@
                 </div>
             </div>
               </header>
-        
+
             <div class="container">
                 <div class="row">
-      
+
               <!-- Blog Entries Column -->
               <div class="col-md-8 mt-3 left">
                     {% for post in post_list %}
@@ -47,7 +47,7 @@
                     <p class="card-text">{{post.content|slice:":200" }}</p>
                     <a href="{% url 'post_detail' post.slug  %}" class="btn btn-primary">Read More &rarr;</a>
                   </div>
-                 
+
                 </div>
                 {% endfor %}
             </div>
