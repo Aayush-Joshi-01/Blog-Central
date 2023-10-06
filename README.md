@@ -60,6 +60,7 @@ Before you begin, ensure you have met the following requirements:
 6. Apply the database migrations:
 
    ```bash
+   python manage.py makemigrations
    python manage.py migrate
    ```
 
