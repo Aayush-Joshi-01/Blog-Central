@@ -28,7 +28,7 @@ Before you begin, ensure you have met the following requirements:
 2. Change into the project directory:
 
    ```bash
-   cd blog-central
+   cd blog-central/mysite/mysite
    ```
 
 3. Create a virtual environment (optional but recommended):
